@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: retroFont;
-    src: url(/src/static/font/8-BIT\ WONDER.TTF);
+    src: url(/../static/font/8-BIT\ WONDER.TTF);
 }
 
 .FakeIndex {

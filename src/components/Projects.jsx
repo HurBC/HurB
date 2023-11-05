@@ -13,8 +13,8 @@ function Project(props) {
 function Projects() {
     return (
         <div className='projects'>
-            <Project name="Timetris" url="src/static/img/Projects/image.png" />
-            <Project name="Dunder Mifflin Manager (simple)" url="src/static/img/Projects/DunderMifflin.png" />
+            <Project name="Timetris" url="../static/img/Projects/image.png" />
+            <Project name="Dunder Mifflin Manager (simple)" url="../static/img/Projects/DunderMifflin.png" />
         </div>
     )
 }

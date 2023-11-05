@@ -19,8 +19,8 @@ let winter = {
     }
 }
 let backgrounds = {
-    "Winter": "url('src/static/img/winter.gif')",
-    "Summer": "url('src/static/img/summer.gif')"
+    "Winter": "url('../static/img/winter.gif')",
+    "Summer": "url('../static/img/summer.gif')"
 }
 
 if ((actualDate.month > winter.start.month && actualDate.month < winter.end.month) || 
