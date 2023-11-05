@@ -1,0 +1,26 @@
+* { margin: 0; padding: 0; }
+
+@media only screen and (min-width: 801px) {
+    body {
+        padding: 12vh 26vh;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-x: center;
+        background-repeat: repeat-x;
+        overflow: hidden;
+        transition: all .5s;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: 330%;
+        background-position-x: -80vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}

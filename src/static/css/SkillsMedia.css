@@ -1,0 +1,52 @@
+.Skills {
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.Skills h2 {
+    margin-bottom: 5vh;
+}
+
+.Language {
+    width: 4vh;
+    margin-right: 1vh;
+    margin-top: 1vh;
+}
+
+.Language:last-child {
+    width: 4vh;
+    margin-right: 0vh;
+}
+
+.languageImages {
+    margin-bottom: 7vh;
+}
+
+.frameworks_library {
+    width: 4vh;
+    margin-right: 1vh;
+    margin-top: 1vh;
+}
+
+.frameworks_library:nth-child(2) {
+    filter: invert(100%);
+}
+
+.boxMedia {
+    padding-top: 2vh;
+}
+
+.socialLinks {
+    color: white;
+}
+
+.socialLinks:hover {
+    color: red;
+}
+
+.socialLinks:first-child {
+    margin-right: 5vh;
+}

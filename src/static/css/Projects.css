@@ -1,0 +1,84 @@
+:root {
+    --color1: #342464;
+    --color2: #acd4fc;
+    --color3: #e46b53;
+    --color4: #f5a15c;
+    --color5: #8d3564;
+    --color6: #fff1ef;
+}
+
+@font-face {
+    font-family: retroFont;
+    src: url(/src/static/font/8-BIT\ WONDER.TTF);
+}
+
+@media only screen and (min-width: 801px) {
+
+    @keyframes showProjects {
+        from {
+            margin-top: 200%;
+        } to {
+            margin-top: 0;
+        }
+    }
+
+    .projects {
+        margin-top: 200%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-family: retroFont;
+        animation: showProjects 1s forwards;
+    }
+    
+    .project {
+        padding: 1.5vh;
+        background: var(--color1);
+        border-radius: 10px;
+    }
+    
+    .project h3 {
+        margin-bottom: 1.3vh;
+    }
+    
+    .projectImage {
+        width: 66vh;
+        border-radius: 8px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .projects {
+        margin-top: 10vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: retroFont;
+    }
+    
+    .project {
+        padding: 1.5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: var(--color1);
+        color: var(--color6)
+        ;
+    }
+
+    .project:first-child {
+        margin-bottom: 3vh;
+    }
+    
+    .project h3 {
+        margin-bottom: 1.3vh;
+    }
+    
+    .projectImage {
+        width: 45vh;
+        border-radius: 8px;
+    }
+}

@@ -1,0 +1,84 @@
+:root {
+    --color1: #342464;
+    --color2: #acd4fc;
+    --color3: #e46b53;
+    --color4: #f5a15c;
+    --color5: #8d3564;
+    --color6: #fff1ef;
+}
+
+@font-face {
+    font-family: retroFont;
+    src: url(/src/static/font/8-BIT\ WONDER.TTF);
+}
+
+.startButton {
+    width: 14vh;
+    height: 5vh;
+    background: var(--color1);
+    color: var(--color6);
+    cursor: pointer;
+    font-family: retroFont;
+    border: 2px solid black;
+    box-shadow: 0 100px 0 0 inset #bd5c6e;
+    transition: all .5s;
+}
+
+.startButton:hover {
+    border: 2px solid white;
+    height: 6vh;
+    box-shadow: 0 0 0 0 inset #bd5c6e;
+}
+
+.Start {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("src/static/img/si.gif");
+    background-position: center;
+    transition: all .7s;
+}
+
+.container {
+    width: 25vh;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+    .Start {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 390px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url("src/static/img/phoneBackground.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all .7s;
+        overflow-y: hidden;
+    }
+
+    .startButton {
+        width: 18vh;
+        height: 7vh;
+        background: var(--color1);
+        color: var(--color6);
+        cursor: pointer;
+        font-family: retroFont;
+        border: 2px solid black;
+        box-shadow: 0 100px 0 0 inset #bd5c6e;
+        transition: all .5s;
+    }
+}
