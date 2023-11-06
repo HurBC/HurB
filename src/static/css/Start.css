@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: retroFont;
-    src: url(/../static/font/8-BIT\ WONDER.TTF);
+    src: url("../font/8-BIT_WONDER.TTF");
 }
 
 .startButton {
@@ -38,7 +38,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../static/img/si.gif");
+    background-image: url("../img/si.gif");
     background-position: center;
     transition: all .7s;
 }
@@ -63,7 +63,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: url("../static/img/phoneBackground.gif");
+        background: url("../img/phoneBackground.gif");
         background-repeat: no-repeat;
         background-size: cover;
         transition: all .7s;

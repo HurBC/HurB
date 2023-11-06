@@ -1,5 +1,7 @@
 import React from 'react';
-import "../static/css/Projects.css"
+import "../static/css/Projects.css";
+import Timetris from '../static/img/Projects/image.png';
+import DMManager from '../static/img/Projects/DunderMifflin.png';
 
 function Project(props) {
     return (
@@ -13,8 +15,8 @@ function Project(props) {
 function Projects() {
     return (
         <div className='projects'>
-            <Project name="Timetris" url="../static/img/Projects/image.png" />
-            <Project name="Dunder Mifflin Manager (simple)" url="../static/img/Projects/DunderMifflin.png" />
+            <Project name="Timetris" url={Timetris} />
+            <Project name="Dunder Mifflin Manager (simple)" url={DMManager} />
         </div>
     )
 }
